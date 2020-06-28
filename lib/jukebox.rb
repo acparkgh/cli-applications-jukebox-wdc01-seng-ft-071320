@@ -50,15 +50,14 @@ def run(songs)
   
     if user_command == "exit"
       exit_jukebox
-      break
     elsif user_command == "help"
       help
     elsif user_command == "list"
       list(songs)
     elsif user_command == "play"
       play(songs)
-    end
-    run(songs)  
+    else
+      run(songs)  
     
   end
   
