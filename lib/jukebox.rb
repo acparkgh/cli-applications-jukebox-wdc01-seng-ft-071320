@@ -33,19 +33,19 @@ def run(songs)
   puts "Please enter a command:"
   user_command = gets.strip
     case user_command
-      when "exit"
-        exit_jukebox
-      when "help"
-        help
-        run(songs)
-      when "list"
-        list(songs)
-        run(songs)
-      when "play"
-        play(songs)
-        run(songs)
-      else
-        run(songs)  
+    when "exit"
+      exit_jukebox
+    when "help"
+      help
+      run(songs)
+    when "list"
+      list(songs)
+      run(songs)
+    when "play"
+      play(songs)
+      run(songs)
+    else
+      run(songs)  
     end
 end
 
