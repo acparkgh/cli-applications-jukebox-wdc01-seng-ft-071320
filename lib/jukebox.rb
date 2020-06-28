@@ -58,7 +58,7 @@ def run(songs)
       play(songs)
     end
     run(songs)  
-    end
+    
   end
   
 end
