@@ -58,7 +58,7 @@ def run(songs)
       play(songs)
     else
       run(songs)  
-    
+    end
   end
   
 end
