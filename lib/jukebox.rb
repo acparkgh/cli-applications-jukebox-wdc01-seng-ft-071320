@@ -39,8 +39,10 @@ def run(songs)
       run(songs)
     elsif user_command == "list"
       list(songs)
+      run(songs)
     elsif user_command == "play"
       play(songs)
+      run(songs)
     else
       run(songs)  
     end
