@@ -60,7 +60,7 @@ def run(songs)
       elsif user_command == "play"
         play(songs)
       end
-      
+    run(songs)  
     end
   end
   
